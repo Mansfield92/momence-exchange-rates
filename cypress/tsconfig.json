@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "e2e/*": [
+        "e2e/*"
+      ],
+      "fixtures/*": [
+        "fixtures/*"
+      ],
+      "support/*": [
+        "support/*"
+      ]
+    },
+    "target": "es6",
+    "moduleResolution": "node",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "types": [
+      "cypress",
+      "node",
+      "./support"
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}

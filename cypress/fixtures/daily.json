@@ -1,0 +1,8 @@
+{
+  "date": "2025-08-20",
+  "rates": [
+    { "country": "EMU", "currency": "Euro", "amount": 1, "code": "EUR", "rate": 25 },
+    { "country": "USA", "currency": "US Dollar", "amount": 1, "code": "USD", "rate": 23 },
+    { "country": "United Kingdom", "currency": "Pound", "amount": 1, "code": "GBP", "rate": 29 }
+  ]
+}

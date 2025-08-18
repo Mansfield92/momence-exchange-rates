@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "cypress",
+    "no-only-tests"
+  ],
+  "extends": [
+    "plugin:cypress/recommended"
+  ],
+  "rules": {
+    "cypress/unsafe-to-chain-command": 0,
+    "no-only-tests/no-only-tests": "error",
+    "node/no-unpublished-import": 0,
+    "node/no-unpublished-require": 0
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}

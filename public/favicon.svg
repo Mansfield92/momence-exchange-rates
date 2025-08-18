@@ -1,0 +1,28 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background circle with gradient -->
+    <defs>
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1f2937;stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:#111827;stop-opacity:1"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background circle -->
+    <circle cx="16" cy="16" r="16" fill="url(#bg)"/>
+
+    <!-- Top arrow (right direction) -->
+    <g fill="#ffffff">
+        <!-- Arrow shaft -->
+        <rect x="6" y="11" width="14" height="2"/>
+        <!-- Arrow head -->
+        <path d="M18 9 L24 12 L18 15 Z"/>
+    </g>
+
+    <!-- Bottom arrow (left direction) -->
+    <g fill="#ffffff">
+        <!-- Arrow shaft -->
+        <rect x="12" y="19" width="14" height="2"/>
+        <!-- Arrow head -->
+        <path d="M14 17 L8 20 L14 23 Z"/>
+    </g>
+</svg>

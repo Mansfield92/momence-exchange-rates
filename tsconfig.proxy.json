@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": false,
+    "outDir": "./dist",
+    "declaration": false,
+    "sourceMap": true
+  },
+  "include": [
+    "proxy/"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
